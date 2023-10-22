@@ -1,0 +1,12 @@
+[Unit]
+Description=[service description]
+
+[Service]
+User= [user]
+WorkingDirectory= [/home/user]
+ExecStart=[/path/to/python.exe/bin/python] [filename.py]
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
