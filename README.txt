@@ -4,7 +4,8 @@ Setup instructions:
 - PIP install required packages
     CMD: pip install python-dotenv web3 supabase telebot
 - Determine node provider:
-    - In all cases you can connect to a self ran node
+    Connect to a personal node
+        - add example
     Common Third Party Node Providers
     Base:
     - https://getblock.io/
